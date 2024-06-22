@@ -16,4 +16,12 @@ function myFunction() {
   
     // Alert the copied text
     alert("Copied the Email!");
-  }
+};
+
+
+function check(){
+    let newTab = document.createElement('a');
+    newTab.href = "https://www.geeksforgeeks.org";
+    newTab.target = "_blank";
+    newTab.click();
+};
