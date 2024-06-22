@@ -21,7 +21,7 @@ function myFunction() {
 
 function check(){
     let newTab = document.createElement('a');
-    newTab.href = "https://drive.google.com/file/d/1kwXxjrjDjn1MhnrywPJmSsco0n_qzu4J/view?usp=sharing";
+    newTab.href = "https://drive.google.com/file/d/1sU1cZ4jKFXh1Ca-TgFf7aWN8R6QO2EF7/view?usp=sharing";
     newTab.target = "_blank";
     newTab.click();
 };
