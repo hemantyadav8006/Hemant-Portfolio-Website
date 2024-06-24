@@ -151,6 +151,14 @@
     text-align: center;
   }
 
+  .contact .form .form-row {
+    flex-direction: column;
+  }
+
+  .contact .form .form-row input {
+    width: 100%;
+  }
+
   .contact .form button {
     width: 100%;
   }
