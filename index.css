@@ -219,10 +219,14 @@ footer a.online i {
   color: aliceblue;
   font-size: 16px;
   line-height: 1.1;
+  text-align: justify;
 }
 
 /* works  */
 
+.work {
+  margin: 20px 0 80px 0;
+}
 .works .right {
   flex: 1;
   display: grid;
@@ -272,6 +276,89 @@ footer a.online i {
   font-size: 15px;
 }
 
+/* Projects  */
+
+.project-heading {
+  margin-top: 8vw;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #18181b;
+  border: 1px solid #27272a;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-heading h2 {
+  font-weight: 400;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.project-heading h2:hover {
+  color: #388e3c;
+}
+
+.project {
+  margin: 2vw 0;
+  padding: 4vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #18181b;
+  border: 1px solid #27272a;
+  border-radius: 14px;
+}
+
+.project .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  gap: 1rem;
+}
+
+.project .project-grid .item {
+  text-align: start;
+  background: #18181b;
+  padding: 2vw;
+  border: 1px solid #27272a;
+  border-radius: 14px;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.project .project-grid .item img {
+  width: 100%;
+}
+
+.project .project-grid .item .details {
+  padding: 10px;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project .project-grid .item .details h2 {
+  color: #388e3c;
+}
+
+.project .project-grid .item .details .icons {
+  width: 20%;
+  padding: 4px;
+  text-align: justify;
+  display: flex;
+}
+
+.project .project-grid .item .details .icons a {
+  margin: 8px;
+}
+
+.project .project-grid .item .details .icons a i {
+  font-size: 1.6rem;
+}
+
 /* contact */
 
 .contact-heading {
@@ -286,9 +373,19 @@ footer a.online i {
   transition: all 0.3s ease;
 }
 
+.contact-heading h2 {
+  font-weight: 400;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.contact-heading h2:hover {
+  color: #388e3c;
+}
+
 .contact {
   margin: 2vw 0;
-  padding: 8vw;
+  padding: 8vw 6vw 8vw 6vw;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -445,11 +542,10 @@ footer > a {
 footer .socials {
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 
-footer .socials a {
-  font-size: 20px;
+footer .socials p {
+  font-size: 15px;
   font-weight: 500;
   color: #bdbdbd;
 }
