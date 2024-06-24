@@ -105,6 +105,59 @@
 }
 
 @media screen and (max-width: 576px) {
+  /* Hamburger Menu */
+
+  nav .links {
+    margin: 0 4.8vw;
+  }
+  nav .links {
+    height: 100vh;
+    width: 91%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: top 1s ease-in;
+    display: none;
+  }
+
+  nav .links a {
+    margin: 20px 0 0 0;
+  }
+
+  nav .links .pro-links {
+    margin-top: 50px;
+  }
+
+  nav .links .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  nav .openMenu {
+    display: block;
+    position: absolute;
+    color: white;
+    right: 20px;
+  }
+
+  nav .links a {
+    font-size: 1.6rem;
+  }
+
+  nav .links .pro-links i {
+    display: inline-block;
+    padding: 12px;
+  }
+
+  /* about */
   .about .left .info h2 {
     font-size: 30px;
   }
@@ -117,9 +170,6 @@
     font-size: 14px;
   }
 
-  .works .right .item {
-    /* padding: 20px; */
-  }
   .works .right .item a {
     font-size: 20px;
   }
@@ -136,6 +186,10 @@
   #project h2,
   #contact h2 {
     font-size: 23px;
+  }
+
+  .project .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   }
 
   .project .project-grid .item .details {

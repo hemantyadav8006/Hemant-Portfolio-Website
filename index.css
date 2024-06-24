@@ -72,6 +72,27 @@ nav .links a.active {
   color: #388e3c;
 }
 
+/* Hamburger Menu */
+
+nav .openMenu {
+  font-size: 2rem;
+  margin: 11px;
+  cursor: pointer;
+  display: none;
+}
+
+nav .links .closeMenu,
+nav .links .pro-links i {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+
+nav .links .pro-links i:hover {
+  color: #388e3c;
+}
+
 .about {
   display: flex;
   align-items: center;
