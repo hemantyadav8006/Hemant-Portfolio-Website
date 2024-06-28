@@ -274,9 +274,9 @@ footer a.online i {
   transition: all 0.3s ease;
 }
 
-.works .right .item:hover a {
+/* .works .right .item:hover a {
   color: #388e3c;
-}
+} */
 
 .works .right .item a {
   font-size: 33px;
