@@ -13,13 +13,13 @@ function myFunction() {
     copyText = "hemantyadav8006@gmail.com";
 
     navigator.clipboard.writeText(copyText);
-  
+
     // Alert the copied text
     alert("Copied the Email!");
 };
 
 
-function check(){
+function check() {
     let newTab = document.createElement('a');
     newTab.href = "https://drive.google.com/file/d/1Am59QK_aBEPMzQSrE3JXaUNAicDuLywV/view?usp=sharing";
     newTab.target = "_blank";
@@ -44,5 +44,5 @@ function show() {
 
 
 function hide() {
-    mainMenu.style.top = '-100%'
+    mainMenu.style.top = '-400%'
 }
