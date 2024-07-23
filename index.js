@@ -44,5 +44,5 @@ function show() {
 
 
 function hide() {
-    mainMenu.style.top = '-400%'
+    mainMenu.style.top = '-105%'
 }
